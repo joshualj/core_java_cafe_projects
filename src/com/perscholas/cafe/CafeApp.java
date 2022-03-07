@@ -9,7 +9,7 @@ public class CafeApp {
     public static void main(String[] args) {
         Product coffee = new Product("coffee", 5.00, "regular coffee");
         Product espresso = new Product("espresso", 4.00, "nice caffeine kick");
-        Product cappuccino = new Product("cappuccino", 3.50, "a cap for a captain.");
+        Product cappuccino = new Product("cappuccino", 3.50, "a cap for a captain");
 
         Scanner productQuant = new Scanner(System.in);
         System.out.println("Please enter a quantity of coffees, espressos, and cappuccinos in the format 1 1 1: ");
