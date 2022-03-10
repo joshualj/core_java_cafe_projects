@@ -1,5 +1,8 @@
 package com.perscholas.cafe;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public abstract class Product {
     String name;
     double price;
@@ -47,11 +50,14 @@ public abstract class Product {
     }
 
     public abstract double calculateProductTotal();
-//    public double calculateProductTotal() {
-//        return (quantity * price);
-//    }
+
+    public abstract String printOptions();
+
+    public abstract void addOptions(Scanner input);
 
 }
+
+//The code below is from a previous version of this project
 
 //public class Product {
 //    private String name;
